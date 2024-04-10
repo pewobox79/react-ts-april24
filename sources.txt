@@ -1,0 +1,32 @@
+// VITE template Tooling
+https://vitejs.dev/
+
+// React Router
+https://reactrouter.com/en/main
+
+//Formik
+https://formik.org/docs/api/useFormik
+
+//AbortController
+https://developer.mozilla.org/en-US/docs/Web/API/AbortController/abort
+
+//json placeholder dummy data
+https://jsonplaceholder.typicode.com
+
+//useForm - alternative zu Formik
+https://react-hook-form.com/docs/useform
+
+
+//formik validation with YUP
+https://formik.org/docs/guides/validation
+
+https://github.com/jquense/yup
+
+
+
+// EXTRA TOPICS
+// code editor solutions
+https://blog.logrocket.com/best-code-editor-components-react/
+
+
+//hide JS in client source codehttps://www.dhiwise.com/post/how-to-hide-javascript-source-code
