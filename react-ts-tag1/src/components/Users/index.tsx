@@ -1,10 +1,14 @@
-import { useEffect, useState } from "react"
+import { useFetch } from "@/hooks/useFetch"
+
 import { Link } from "react-router-dom"
 
 const Users = () => {
 
-    const URL = "https://jsonplaceholder.typicode.com/users"
-    const [users, setUsers] = useState<[]>([])
+    const URL = "https://jsonplaceholder.typie.com/users"
+
+    const { data, isLoading, isError } = useFetch(URL);
+
+    /* const [users, setUsers] = useState<[]>([])
 
     useEffect(() => {
 
@@ -15,10 +19,10 @@ const Users = () => {
                 //console.log("user in effect", users) //noch keine aktuellen werte
             })
 
-    }, [])
+    }, []) */
 
 
-    const UserList = users.map((item:{name: string, id: number})=>{
+    const UserList = data.map((item: { name: string, id: number }) => {
         return <Link to={`/users/${item.id}`} key={item.id} ><div>
             {item.name}
         </div></Link>
@@ -26,7 +30,8 @@ const Users = () => {
     return (
         <div>
             <h1>users</h1>
-          {UserList}
+            {isLoading ? "is Loading" : UserList}
+            {isError && <p>error happend</p>}
         </div>
     )
 }

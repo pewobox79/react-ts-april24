@@ -1,6 +1,10 @@
 import { useState } from "react"
+import { UserContext } from "@/store/context"
+import { useContext } from "react"
 
 const LoginForm = () => {
+
+    const user = useContext(UserContext);
 
     const INIT_VALUES = {
         username: "",
@@ -21,6 +25,7 @@ const LoginForm = () => {
         e.preventDefault()
         console.log("login data", loginData)
         setLoginData(INIT_VALUES)
+        user?.setUserState({...user.user, isLogged: true})
     }
 
     return (

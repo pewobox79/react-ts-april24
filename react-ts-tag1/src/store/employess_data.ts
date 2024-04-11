@@ -11,4 +11,4 @@ export const employeesData=[
         age: "40",
         skills: ["nextjs", "macOS", "reactjs"]
     }
-]
+] 

@@ -1,32 +1,44 @@
-// VITE template Tooling
+## VITE template Tooling
 https://vitejs.dev/
 
-// React Router
+## React Router
 https://reactrouter.com/en/main
 
-//Formik
+## Formik
 https://formik.org/docs/api/useFormik
 
-//AbortController
+## AbortController
 https://developer.mozilla.org/en-US/docs/Web/API/AbortController/abort
 
-//json placeholder dummy data
+## json placeholder dummy data
 https://jsonplaceholder.typicode.com
 
 //useForm - alternative zu Formik
 https://react-hook-form.com/docs/useform
 
 
-//formik validation with YUP
+## formik validation with YUP
 https://formik.org/docs/guides/validation
 
 https://github.com/jquense/yup
 
 
+## useQuery
+https://www.npmjs.com/package/@tanstack/react-query
+Achtung v5 update verfügbar
 
-// EXTRA TOPICS
-// code editor solutions
+## alias setting vitejs
+https://dev.to/avxkim/setup-path-aliases-w-react-vite-ts-poa
+
+## EXTRA TOPICS ##
+## code editor solutions
 https://blog.logrocket.com/best-code-editor-components-react/
 
+## useContext React
+https://react.dev/reference/react/useContext
 
-//hide JS in client source codehttps://www.dhiwise.com/post/how-to-hide-javascript-source-code
+## codario
+https://codario.io/
+
+## hide JS in client source code
+https://www.dhiwise.com/post/how-to-hide-javascript-source-code

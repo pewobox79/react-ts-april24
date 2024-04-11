@@ -1,8 +1,8 @@
-import CleanupExercise from '../components/Uebung/CleanupExercise/CleanupExercise'
+import Users from '@/components/Users'
 
 
 const UsersPage = () => {
-    return <CleanupExercise/>
+    return <Users/>
 }
 
 export default UsersPage
